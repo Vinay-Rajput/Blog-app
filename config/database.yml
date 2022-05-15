@@ -1,0 +1,17 @@
+development:
+ database: vinay
+ adapter: postgresql
+ username: postgre
+ password: 12345678
+ host: localhost
+ pool: 5
+ timeout: 5000
+
+
+production:
+ adapter: postgresql
+ encoding: unicode
+ database: vinay
+ pool: 5
+ username: postgre
+ password: 12345678
